@@ -1,0 +1,86 @@
+
+.mine_cards {
+    margin-top: 90px;
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+
+.card_item {
+  display: flex; 
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.card_item:hover {
+  transform: translateY(-5px);
+}
+
+
+.card_image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.card_image img {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.card_content {
+  flex: 1.2;
+  padding-left: 20px;
+}
+
+.card_content h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+
+.sub_links p {
+  font-size: 14px;
+  color: #666;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.sub_links p:hover {
+  color: #14b8a6; 
+}
+
+
+.all_btn {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #14b8a6;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.all_btn:hover {
+  text-decoration: underline;
+}
+
+.all_btn span {
+  font-size: 18px;
+}

@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .bigbanner { justify-content: center; padding: 40px 20px; text-align: center; }
+  .price_boxes { justify-content: center; }
+  .shop_btn { width: 100%; }
+
+  .mine_cards { grid-template-columns: 1fr; margin-top: 50px; }
+  .card_item { max-width: 450px; }
+
+  .doublebanner { flex-direction: column; gap: 15px; margin-top: 40px; }
+  .banner { height: 180px; }
+
+  .card { flex-direction: column; align-items: center; text-align: center; max-width: 100%; }
+  .card-img { width: 100%; justify-content: center; display: flex; }
+  .stock, .timer { justify-content: center; }
+
+  .container { flex-wrap: wrap; gap: 15px; }
+  .nav { display: none; }
+  .search { width: 100%; order: 3; }
+  .search select { display: none; }
+
+  .mac_banner { flex-direction: column; text-align: center; gap: 25px; }
+  .mac_left { align-items: center; }
+  .mac_right { text-align: center; }
+
+  .carded_wrapper { grid-template-columns: repeat(2, 1fr); padding: 0 15px; }
+  .carded:hover { transform: none; }
+
+  .phones_container { grid-template-columns: repeat(2, 1fr); padding: 15px; }
+}
+
+@media (max-width: 480px) {
+  .product_title { font-size: 28px; }
+  .price_boxes { flex-direction: column; }
+
+  .card_item { flex-direction: column; text-align: center; }
+  .card_content { padding-left: 0; margin-top: 15px; }
+
+  .banner { height: 160px; text-align: center; align-items: center; }
+  .banner button { width: 100%; }
+
+  .image { width: 150px; }
+  .btn { width: 100%; }
+
+  .logo h2 { font-size: 18px; }
+
+  .mac_banner { margin-top: 40px; }
+  .mac_left ul { display: none; }
+
+  .carded_wrapper { grid-template-columns: 1fr; }
+  
+  .phones_container { grid-template-columns: 1fr; }
+}

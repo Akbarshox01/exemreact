@@ -1,0 +1,87 @@
+.banner {
+  height: 80vh;
+  min-height: 500px;
+  padding: 0 100px; /* Yonlardan kengroq joy */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  align-items: center; /* Vertikal o'rtada turadi */
+  justify-content: flex-start; /* Gorizontal chapga suradi */
+  color: white;
+}
+
+.banner-content {
+  max-width: 600px;
+  text-align: left; /* Matnlar chapdan boshlanadi */
+}
+
+.small {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.banner-content h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+}
+
+.banner-content p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.banner-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.banner-content li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.shop, .video {
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.shop {
+  background: black;
+  color: white;
+  border: 1px solid #444;
+}
+
+.video {
+  background: black;
+  color: white;
+  border: 1px solid #444;
+}
+
+
+

@@ -1,0 +1,108 @@
+.last-banner-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  align-items: flex-start;
+}
+
+
+.side-banner {
+  width: 280px;
+  height: 400px;
+  background-color: #111;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+.apple-icon {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.side-banner-text {
+  text-align: center;
+  z-index: 2;
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+  flex: 1;
+}
+
+.product-mini-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product-mini-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.product-img-box {
+  width: 70px;
+  height: 70px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.product-img-box img {
+  max-width: 90%;
+}
+
+.price-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.new-price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #111;
+}
+
+.old-price {
+  color: #bbb;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.product-name {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.stars {
+  color: #00d5ff; 
+  font-size: 12px;
+}
+
+.review-count {
+  font-size: 11px;
+  color: #999;
+  margin-left: 5px;
+}
+

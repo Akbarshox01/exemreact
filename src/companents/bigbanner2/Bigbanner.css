@@ -1,0 +1,82 @@
+  .bigbanner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 10%;
+    overflow: hidden;
+  }
+
+
+
+
+  .banner_content {
+    position: relative;
+    z-index: 2;
+    max-width: 450px;
+    color: #1a1a1a;
+  }
+
+  .collection_label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  .product_title {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 15px 0;
+  }
+
+  .product_desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+
+  .price_boxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .sale_box, .price_box {
+    padding: 15px 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  .sale_box {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .old_price {
+    display: block;
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+  }
+
+  .current_price {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+  }
+
+
+  .shop_btn {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
