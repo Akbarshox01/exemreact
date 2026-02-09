@@ -319,7 +319,7 @@ const App = () => {
       <Shop shopp={shopp}/>
       <Vloges shopp={shopp}/>
       <Routes>
-        <Route path="/vloges" element={<Vloges />} />
+        <Route path="/Vloges" element={<Vloges />} />
       </Routes>
     </div>
   );

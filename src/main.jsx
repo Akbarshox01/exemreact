@@ -8,10 +8,7 @@ import Vloges from './pages/blog/Vloges'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/vloges" element={<Vloges />} />
-      </Routes>
+     <App />
     </BrowserRouter>
   </StrictMode>
 )
