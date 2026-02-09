@@ -1,20 +1,20 @@
 .banner {
   height: 80vh;
   min-height: 500px;
-  padding: 0 100px; /* Yonlardan kengroq joy */
+  padding: 0 100px; 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   
   display: flex;
-  align-items: center; /* Vertikal o'rtada turadi */
-  justify-content: flex-start; /* Gorizontal chapga suradi */
+  align-items: center; 
+  justify-content: flex-start; 
   color: white;
 }
 
 .banner-content {
   max-width: 600px;
-  text-align: left; /* Matnlar chapdan boshlanadi */
+  text-align: left;
 }
 
 .small {
@@ -22,7 +22,6 @@
   align-items: center;
   gap: 10px;
   font-size: 16px;
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }

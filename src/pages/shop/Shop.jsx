@@ -48,10 +48,7 @@ const Shop = ({ shopp }) => {
 
               <div className="product-details">
                 <div className="price-section">
-                  <span className="current-price">${item.price?.toFixed(2)}</span>
-                  {item.oldPrice && (
-                    <span className="old-price">${item.oldPrice.toFixed(2)}</span>
-                  )}
+                  <span className="current-price">{item.price}</span>
                 </div>
                 
                 <h3 className="product-title">{item.name}</h3>

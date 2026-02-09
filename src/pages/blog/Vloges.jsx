@@ -49,12 +49,7 @@ const Vloges = ({ shopp }) => {
               </div>
               <div className="product-details">
                 <div className="price-section">
-                  <span className="current-price">${item.price?.toFixed(2)}</span>
-                  {item.oldPrice && (
-                    <span className="old-price" style={{ textDecoration: 'line-through', marginLeft: '10px', color: 'gray' }}>
-                      ${item.oldPrice.toFixed(2)}
-                    </span>
-                  )}
+                  <span className="current-price">{item.price}</span>
                 </div>
                 <h3 className="product-title">{item.name}</h3>
                 <div className="product-rating">

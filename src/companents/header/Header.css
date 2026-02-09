@@ -49,12 +49,11 @@
 .search input {
   border: none;
   outline: none;
-  background: transparent;
 }
 
 .search select {
   border: none;
-  background: transparent;
+
 }
 
 .search button {
@@ -80,7 +79,7 @@
   cursor: pointer;
 }
 
-/* Sidebar CSS */
+
 .sidebar {
   position: fixed;
   top: 0;
